@@ -38,8 +38,12 @@ class App extends React.Component {
           // name: response.name
           users: response
         });
+      })
+      .catch(err => {
+        console.log(err);
       });
   };
+
   fetchFollowers = () => {
     fetch(`https://api.github.com/users/lauradondiego/followers`)
       .then(response => {

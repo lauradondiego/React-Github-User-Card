@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Sigmar+One&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Oleo+Script&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Oleo+Script|Spectral&display=swap");
 
 body {
   background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQElaRe-GR0HCAmzUKAajtvhUUBhCgQVIy9nCZkkYyWeUUZOQoL");
@@ -39,4 +40,9 @@ body {
 
 img {
   border: 1px solid black;
+}
+
+p {
+  font-family: "Spectral", serif;
+  text-shadow: 1px 0 maroon;
 }

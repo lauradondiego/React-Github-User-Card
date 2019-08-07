@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Image } from "semantic-ui-react";
+import { Card, Image, Icon } from "semantic-ui-react";
 
 export default class UserCard extends React.Component {
   constructor(props) {
@@ -16,6 +16,7 @@ export default class UserCard extends React.Component {
           ui={false}
         />
         <h2>{this.props.followers.login}</h2>
+        <Icon color='blue' name='users' />
         <p> Type: {this.props.followers.type}</p>
         <p> ID: {this.props.followers.id}</p>
       </Card>
