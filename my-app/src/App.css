@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Sigmar+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Oleo+Script&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Oleo+Script|Spectral&display=swap");
+
+body {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQElaRe-GR0HCAmzUKAajtvhUUBhCgQVIy9nCZkkYyWeUUZOQoL");
+  height: 100vh;
+  /* background-repeat: no-repeat; */
+  background-size: 500px 300px;
+  /* background-color: skyblue; */
+}
+.laura {
+  border: 2px solid black;
+  margin: 20px 60px 50px 60px;
+  text-align: center;
+}
+
+.header {
+  color: maroon;
+  font-family: "Sigmar One", cursive;
+}
+
+.laura h2 {
+  font-family: "Oleo Script", cursive;
+}
+
+.ui .card {
+  border: 1px solid black;
+  margin: 20px 60px 50px 60px;
+  text-align: center;
+  background-color: #d2d2d2;
+}
+.ui .card h1 {
+  color: maroon;
+  font-family: "Sigmar One", cursive;
+}
+.ui .card h2 {
+  font-family: "Oleo Script", cursive;
+}
+
+img {
+  border: 1px solid black;
+}
+
+p {
+  font-family: "Spectral", serif;
+  text-shadow: 1px 0 maroon;
+}
